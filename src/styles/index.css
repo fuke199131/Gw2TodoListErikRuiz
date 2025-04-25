@@ -1,11 +1,71 @@
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('https://images.wall.alphacoders.com/137/1372794.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: calc(100% - 20px);
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: none;
+  }
+  
+  button {
+    margin-right: 5px;
+    padding: 8px 14px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1976d2;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #125aa1;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #222;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .delete-btn {
+    background: none;
+    color: red;
+    border: none;
+    cursor: pointer;
+  }
